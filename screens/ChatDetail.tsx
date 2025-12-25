@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, Paperclip, Check, CheckCheck, ArrowLeft, Loader2, ChevronRight } from 'lucide-react';
+import { Send, Paperclip, CheckCheck, ArrowLeft, Loader2, ChevronRight } from 'lucide-react';
 import { MessageItem, ChatMessage } from '../types';
 
 interface ChatDetailProps {
