@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { ArrowRight, Mail, Lock, Image as ImageIcon, User as UserIcon, Shield } from 'lucide-react';
+import { Mail, Lock, Image as ImageIcon, Shield } from 'lucide-react';
 import { APP_LOGOS, ADMIN_USER, REGULAR_USER } from '../constants';
 import { User } from '../types';
 
@@ -126,7 +126,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin, onForgotPassw
                 onClick={() => onLogin(REGULAR_USER)}
                 className="py-4 bg-accent hover:bg-yellow-400 text-blue-900 rounded-2xl font-bold text-sm shadow-lg active:scale-[0.98] transition-all flex items-center justify-center gap-2"
              >
-                <UserIcon className="w-4 h-4" /> Usuário
+                Usuário
              </button>
              <button
                 type="button"
