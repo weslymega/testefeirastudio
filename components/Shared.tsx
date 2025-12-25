@@ -3,9 +3,7 @@ import React, { useEffect } from 'react';
 import { 
   Home, 
   MessageSquare, 
-  User as UserIcon, 
   ChevronLeft,
-  Settings,
   Plus,
   Menu,
   CheckCircle,
