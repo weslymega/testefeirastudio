@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { 
-  Search, MapPin, Bell, Car, Home, ChevronRight, Wrench, Smartphone, ArrowRight, TrendingUp, Eye, Sparkles, Star, Map, Camera
+  Search, MapPin, Bell, Car, Home, ChevronRight, Wrench, Smartphone, ArrowRight, Sparkles, Star, Map, Camera
 } from 'lucide-react';
 import { Screen, User, AdItem, BannerItem } from '../types';
 import { POPULAR_REAL_ESTATE, POPULAR_SERVICES, POPULAR_CARS, APP_LOGOS } from '../constants';
