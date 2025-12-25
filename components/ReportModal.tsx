@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { X, AlertTriangle, ChevronRight, CheckCircle } from 'lucide-react';
+import { X, AlertTriangle, CheckCircle } from 'lucide-react';
 
 interface ReportModalProps {
   isOpen: boolean;
